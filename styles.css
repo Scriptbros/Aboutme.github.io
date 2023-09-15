@@ -84,3 +84,34 @@ footer {
     animation: pulse 1.5s infinite;
       }
    
+
+/* Add these styles to your existing styles.css file */
+
+.parallax {
+    background-image: url('https://media.discordapp.net/attachments/1147991662476406866/1152379321017712741/image.png'); /* Add your background image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.parallax p {
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.content {
+    padding: 20px;
+    }

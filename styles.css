@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #000; /* Changed to black */
-    color: #fff; /* Changed text color to white */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
 }
 
 header, section, footer {
-    background-color: #222; /* Darker shade of black for sections */
+    background-color: #444; /* Slightly lighter shade for sections */
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -35,7 +35,7 @@ footer {
 #loading {
     text-align: center;
     margin-top: 20%;
-    color: #fff; /* Changed text color to white */
+    color: #fff; /* White text color */
 }
 
 .spinner {
@@ -54,5 +54,4 @@ footer {
 
 #content {
     display: none;
-    }
-        
+}
